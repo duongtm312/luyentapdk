@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let score1 = Number(prompt("Điểm đầu kỳ"));
+  let score2 = Number(prompt("Điểm giữa kỳ"));
+  let score3 = Number(prompt("Điểm cuối kỳ"));
+  let mediumScore = (score1+score2+score3)/3
+  if (mediumScore>10){
+      alert("Wrong");
+  }else if (mediumScore>=8.5){
+      alert("Học sinh Giỏi");
+  }else if (mediumScore>=6.5){
+      alert("Học sinh khá");
+  }else if (mediumScore>=5){
+      alert("Học sinh trung bình")
+  }else {alert("học sinh yếu")}
+</script>
+</body>
+</html>

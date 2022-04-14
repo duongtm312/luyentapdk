@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2 id="pt"></h2>
+
+</body>
+</html>
+<script>
+    let a = Number(prompt("Nhập giá trị a"));
+    let b = Number(prompt("Nhập giá trị b"));
+    if (a==0&b==0){
+        alert("Phương trình có vô số nghiệm");
+    }else if (a==0){
+        alert("Phương trình vô nghiệm");
+    }else if (a!=0&&b==0){
+        alert("Phương tình có nghiệm duy nhất là '0'");
+    }else {
+        alert("Phương trình có nghiệm là:" + -b/a)
+    };
+
+</script>

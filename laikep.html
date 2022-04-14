@@ -8,8 +8,14 @@
 <script>
     let money = Number(prompt("Nhập số tiền"));
     let month = Number(prompt("Nhập số tháng"));
-    let profit = money*Math.pow(1+0.15/1,month*1)
-    alert(profit)
+    // let profit = money*Math.pow(1+0.15/1,month*1)
+    // alert(profit);
+    let count = 0;
+    while (count<month){
+        money+=money*15/100;
+        count++
+    }
+    alert(money)
 </script>
 </body>
 </html>
